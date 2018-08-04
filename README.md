@@ -1,2 +1,3 @@
-# hackrice-website
-The unofficial website for HackRice8
+# hackmentalhealth
+
+Official HackMentalHealth Website
