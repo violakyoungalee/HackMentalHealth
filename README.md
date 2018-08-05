@@ -1,4 +1,6 @@
-# yhmh
+# Yale Hack Mental Health
+
+Website for YHMH 2019
 
 The intersection of mental health and technology
 
