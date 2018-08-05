@@ -107,6 +107,17 @@ class Main extends React.Component {
 					</span>
 					{close}
 				</article>
+				<article
+					id="application"
+					className={`${this.props.article === 'application' ? 'active' : ''} ${
+						this.props.articleTimeout ? 'timeout' : ''
+					}`}
+					style={{ display: 'none' }}>
+					<span>
+					<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc8z54sXMemJO8oVlwl6Al9RTHYIKVkkgrZ_DBk2EMqvJcZPw/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+					</span>
+					{close}
+				</article>
 
 				<article
 					id="judging"

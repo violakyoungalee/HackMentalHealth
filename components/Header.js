@@ -79,7 +79,9 @@ const Header = props => (
 						className="invert"
 						href="javascript:;"
 						onClick={() => {
-							window.location = 'https://yalementalhack.typeform.com/to/VdKpUU';
+							// window.location = 'https://yalementalhack.typeform.com/to/VdKpUU';
+							// props.onOpenArticle('application');
+							window.location='https://docs.google.com/forms/d/e/1FAIpQLSc8z54sXMemJO8oVlwl6Al9RTHYIKVkkgrZ_DBk2EMqvJcZPw/viewform?usp=sf_link';
 						}}>
 						<FontAwesomeIcon icon={edit} /> Apply
 					</a>
